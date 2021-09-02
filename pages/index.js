@@ -2,9 +2,9 @@ import Head from "next/head"
 import styles from "../styles/Home.module.css"
 
 export default function Home() {
-	fetch("/api/get-css-color/black")
-		.then((response) => response.json())
-		.then((data) => console.log(data))
+	// fetch("/api/get-css-color/black")
+	// 	.then((response) => response.json())
+	// 	.then((data) => console.log(data))
 
 	return (
 		<div className={styles.container}>
